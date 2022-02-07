@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">
+            <!--Photo by Eugene Golovesov from Pexels-->
+            <img src="./images/pexels-eugene-golovesov-7164575.jpg" alt="Close up photo of dark green plants">
+        </div>
+
+        <div class="content">
+
+            <div id="text-info">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+          
+            <div class="middle">
+                <h1>Let's do this!</h1>
+                <form action="sign-up" id="sign-up">
+                    <div class="sign-up left">
+                        <div class="entry">
+                            <label for="firstName">First Name:</label>
+                            <input type="text" id="first_name" required> 
+                        </div>
+                        <div class="entry">
+                            <label for="userEmail">Email Address:</label>
+                            <input type="email" id="user_email" placeholder="you@example.com" required>
+                        </div>
+                        <div class="entry">
+                            <label for="password">Password:</label>
+                            <input type="password" id="user_password" required>
+                        </div>
+                    </div>
+                    <div class="sign-up right">
+                        <div class="entry">
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" id="last_name">
+                        </div>
+                        <div class="entry">
+                            <label for="phoneNumber">Phone Number:</label>
+                            <input type="tel" id="user_phone_number" placeholder="(123) 456 7890"pattern="[0-9]{3} [0-9]{3} [0-9]{4}">
+                        </div>
+                        <div class="entry">
+                            <label for="password">Confirm Password:</label>
+                            <input type="password" id="user_password_confirm" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="create-account-sign-in">
+                <button>Create Account</button>
+                <p>Already have an account? <a href="www.google.com">Log in</a></p>
+            </div>
+            
+        </div> 
+    </div>
+  
+    
+
+</body>
+</html>
+
+ 

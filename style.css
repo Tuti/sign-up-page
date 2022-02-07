@@ -1,0 +1,78 @@
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-Regular.ttf');
+}
+.container { 
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+    
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #f9fafb;
+}
+
+.title img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#text-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+    font-family: 'Open Sans', serif;
+    font-size: 18px;    
+    font-weight: bold;
+}
+.middle {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+}
+
+.middle h1 {
+    margin: 20px 0px 0px 40px;
+    font-size: 22px;
+}
+#sign-up {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+
+.sign-up.left { 
+    margin-left: 10px;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    font-family: 'Open Sans', serif;
+}
+
+.create-account-sign-in {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.create-account-sign-in button {
+    background-color: #596d48;
+    font-family: 'Open Sans', serif;
+    font-weight: bold;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 0;
+}
